@@ -1,0 +1,358 @@
+#main{
+    width: 1100px;
+}
+.main_top{
+    width: 1100px;
+    height: 45px;
+    padding: 13px 50px 10px;
+}
+.main_top ol li{
+    float: left;
+}
+.main_top ol li a {
+    color: black;
+}
+.main_box{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 480px;
+    height: 546px;
+}
+.box_top{
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+.box_top img{
+    width: 100%;
+    height: 100%;
+    
+}
+.mark{
+    width: 225px;
+    height: 225px;
+    background-color: rgba(207, 203, 203,0.5);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    display: none;
+}
+.imgRight{
+    position: absolute;
+    top: 183px;
+    left: 870px;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    display: none;
+}
+.imgRight img{
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    z-index:999;
+}
+.divImgs img{
+width: 64px;
+height: 64px;
+margin: 20px 5px;
+}
+.imgborder{
+    border: 1px solid red;
+}
+.rightbox{
+    /* float: right; */
+    width: 558px;
+    height: 529px;
+    padding: 0px 8px;
+}
+.txhz{
+    display: flex;
+    justify-content: space-between;
+}
+.rightbox_t{
+    width: 542px;
+    height: 124px;
+}
+.rightbox_t p{
+    font-size: 16px;
+}
+.rightbox_b {
+    background-color: #f6f6f6;
+    width: 573px;
+    height: 100px;
+    margin-left: -15px;
+}
+.rightbox_b1{
+    height: 100px;
+} 
+.b1_al{
+    height: 42px;
+    padding-left: 10px;
+}
+.b1_ar{
+    padding-right: 30px;
+}
+.b1_ar a{
+    color: #595757;
+    font-size: 14px;
+}
+.b1_ar a i{
+    font-size: 30px;
+    height: 42px;
+}
+.b1_b{
+    width: 145px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 20px;
+    color:#808080;
+    padding-left: 10px;
+}
+.b1_b img{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.rightbox_b2{
+    height: 156px;
+    padding-left: 10px;
+}
+.b2_a {
+    width: 557px;
+    height: 24px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.imgbox{
+    width: 200px;
+    height: 200px;
+    background: url(https://oss.casiostore.com.cn/products/5ef2c0342dc1e.jpg?x-oss-process=image%2Fresize%2Cm_pad%2Cw_200%2Ch_200%2Climit_0%2Fauto-orient%2C1%2Fquality%2Cq_90);
+    position: absolute;
+    top: 0px;
+    left: -75px;
+    display: none;
+}
+.b2_b{
+    margin-top: 50px ;
+}
+.b2_b1{
+    color: #808080;
+    width: 80px;
+    font-size: 14px;
+}
+.b2_b .b2_b1{
+    float: left;
+}
+.b2_c .b2_b1{
+    float: left;
+    margin-top: 30px;
+}
+.b2_c2{
+    margin-top: 30px;
+    float: left;
+}
+.b2_c2 span{
+    background-color: #ccc;
+    padding: 1px 5px;
+    /* font-size: 16px; */
+}
+.b2_c2 span:hover{
+    cursor: pointer;
+}
+.b2_c2 input{
+    border: 0;
+    width: 30px;
+    height: 17px;
+    text-align: center;
+}
+
+.rightbox_b3{
+    width: 522px;
+    margin-top: 80px;
+    display: flex;
+    padding-left:10px ;
+}
+.rightbox_b3 a{
+    display: block;
+    padding: 6px 12px;
+    width: 206px;
+    height: 33px;
+    background-color: black;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 18px;
+    border-right: 1px solid #ffffff;
+}
+.rightbox_b3 a:nth-child(2):hover{
+    cursor:pointer;
+}
+
+/* 详情介绍 */
+.details {
+    width:1100px;
+    padding-left: 10px;
+
+}
+.details_box {
+    display: flex;
+    justify-content: space-between;
+}
+.details_l {
+    width: 29%;
+    padding: 10px 8px;
+}
+.details_l img {
+    margin-bottom: 20px ;
+}
+/* .details_l.details_l1{
+    width: 300px;
+    border: 1px solid block;
+    height: 4px;
+    color: #595757;
+    text-align: center;
+} */
+.details_l a{
+    color: #595757;
+    text-align: center;
+}
+.details_l p{
+    color: #c30d23;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+.details_r {
+    width: 71%;
+    padding: 10px 10px;
+    position: relative;
+}
+.details_r .ul1 {
+    width: 790px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+.details_r a{
+    width: 25%;
+    display: block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    padding: 4px 15px;
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+}
+.details_r a:hover{
+    cursor:pointer;
+}
+.bgcolor{
+    background-color: red !important;
+    z-index: 10;
+}
+.details_r span{
+    display: block;
+    width: 790px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:  1.5 ;
+    background-color: black;
+    color: #fff;
+}
+.xiangqing{
+    display: block;
+}
+
+/* 用户评价 */
+.pinjia{
+    width: 782px;
+    height: 198px;
+    padding-top: 10px;
+    position: absolute;
+    top: 362px;
+    left: 18px;
+    display: none;
+}
+.pinjia div:nth-child(1){
+    width: 752px;
+    padding-left: 20px;
+}
+.pinjia div:nth-child(2){
+    width: 752px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #a5a5a5a5;
+}
+/* 产品规格 */
+.guige{
+    width: 782px;
+    padding-top: 10px;
+    position: absolute;
+    top: 362px;
+    left: 18px;
+    display: none;
+}
+.guoge tr{
+    display: block;
+    width: 782px;
+    
+}
+.guige tr:nth-child(1),tr:nth-child(3),tr:nth-child(5),tr:nth-child(7){
+    background-color: #ddd;
+    border-top: 1px solid #ddd;
+}
+.guige th{
+    width: 20%;
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    text-align: left;
+
+}
+.guige td{
+    width: 30%;
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+}
+/* 购物须知 */
+.xuzhi{
+    width: 790px;
+    height: 30px;
+    display: none;
+
+}
+.xuzhi h3{
+    width: 745px;
+    height: 30px;
+    background-color: #005bac;
+    padding-left: 45px;
+}
+.xuzhi h3 a{
+    text-align: left;
+    line-height: 30px;
+    height: 22px;
+    background-color: #005bac;
+    z-index: 103;
+
+}
+.xuzhi p{
+    margin: 10px 0 5px;
+    line-height: 24px;
+    padding-left: 2px;
+    color: #666666;
+}
+
+

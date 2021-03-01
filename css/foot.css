@@ -1,0 +1,263 @@
+/* 底部 */
+.box5{
+    background-color: #333;
+    height: 33px;
+    padding: 20px 0;
+}
+.box5_t div{
+    color: #ffffff;
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+}
+.box5_t div a{
+    font-size: 16px;
+    color: #ffffff;
+}
+.box5_t div a i{
+    font-size: 28px;
+    margin-right: 13px;
+    line-height: 33px;
+}
+.box5_t i{
+    font-size: 28px;
+    margin-right: 13px;
+    line-height: 33px;
+}
+.foot{
+    background-color: black;
+    height: 560px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* 帮助中心 */
+.foot{
+    padding-top:40px ;
+    padding-bottom: 20px;
+}
+.foot_t_l{
+    float: left;
+    width: 677px;
+}
+.foot_t_l  .help{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+.foot_t_l  .help_nr{
+    display: flex;
+}
+.foot_t_l .guide{
+    color: #ffffff;
+    font-weight: 600;
+    width: 25%;
+}
+.foot_t_l .guide div{
+    line-height: 26px;
+    font-size: 14px;
+}
+.foot_t_l .guide  ul {
+    padding-bottom: 15px;
+}
+.foot_t_l .guide  ul  li{
+    color: #eeeeee;
+}
+.foot_t_l .guide  ul  li a
+{    
+    line-height: 24px;
+}
+/*  */
+.foot_t_m{
+height: 225px;
+float: left;
+margin-bottom: 45px;
+border-left: solid 2px #1a1a1a;
+border-right: solid 2px #1a1a1a;
+width: 407px;
+
+}
+.foot_t_m .links{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: #ffffff;
+    margin-left: 75px;
+}
+.foot_t_m  .foot_t_m1{
+    display: flex;
+}
+.foot_t_m  .foot_t_m1 div:nth-child(1){
+    width: 167px;
+    height: 106px;
+    margin-left: 75px;
+}
+/*  */
+.foot_t_r{
+    float: left;
+    margin-bottom: 45px;
+    height: 225px;
+}
+.foot_t_r .club{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: #ffffff;
+    margin-left: 40px;
+} 
+.foot_t_r ul{
+    margin-left: 40px;
+} 
+.hr1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: solid 2px #1a1a1a;
+}
+/* 底部 footer 咨询电话 在线客服 二维码 */
+.foot_b{
+    height: 89px;
+}
+.foot_b_l{
+    width: 370px;
+    color: #ffffff;
+    display: flex;
+   
+}
+.foot_b_l,.foot_b_ll,.foot_b_l3,.foot_b_l4{
+    width: 370px;
+    height: 85px;
+    border-right: solid 2px  #1a1a1a;
+    float: left;
+}
+.foot_b_l1{
+    display: flex;
+}
+.foot_b_l1 div:nth-child(1){
+    display: block;
+    width: 64px;
+    height: 29px;
+    float: left;
+    padding-top: 15px;
+}
+.foot_b_l1 div:nth-child(1) i{
+    font-size: 35px;
+    font-weight: 500;
+}
+.foot_b_l1 div:nth-child(2){
+    display: block;
+    float: right;
+    width: 110px;
+    height: 58px
+}
+.foot_b_l1 div:nth-child(2) em{
+    font-size: 14px;
+}
+
+.foot_b_l2{
+    width: 150px;
+    height: 58px;
+    padding-top: 15px;
+}
+.foot_b_l2 p{
+    display: block;
+    width: 150px;
+    height: 19px;
+    margin-bottom: 10px;
+    color: #eee;
+}
+.foot_b_ll{
+    width: 354px;
+    color: #ffffff;
+}
+.foot_b_ll .foot_b_ll_1{
+    display: flex;
+    justify-content:center;
+}
+.foot_b_ll_2{
+    width: 110px;
+    height: 77px;
+    padding-top: 14px;
+    
+}
+.foot_b_ll_2 div{
+    width: 68px;
+    height:15px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.foot_b_ll_2 i{
+    font-size: 35px;
+    font-weight: 500;
+    float: left;
+}
+.foot_b_ll_3{
+    width: 150px;
+    height: 58px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.foot_b_ll_3 p{
+    display: block;
+    width: 150px;
+    height: 19px;
+    margin-bottom: 10px;
+    color: #eee;
+}
+.foot_b_l3{
+    width: 265px;
+}
+.foot_b_l3_1,.foot_b_l4_1{
+    display: flex;
+    justify-content: space-around;
+}
+.foot_b_l3_1 div:nth-child(2){
+    width: 98px;
+    height: 65px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+.foot_b_l3_1 div:nth-child(2) p{
+    margin-bottom: 10px;
+}
+.foot_b_l4{
+    width: 265px;
+    border-right: 0;
+}
+.foot_b_l4_1 div:nth-child(2){
+    width: 98px;
+    height: 65px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+.foot_b_l4_1 div:nth-child(2) p{
+    margin-bottom: 10px;
+}
+/* 版权 */
+.copyright{
+    color: #ffffff;
+    font-size: 14px;
+}
+.pull_left{
+    float: left;
+}
+.pull_left a:nth-child(1){
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+}
+.pull_left a:nth-child(2){
+    margin-left: 10px;  
+}
+.pull_left a:nth-child(2) img{
+    vertical-align: middle;
+}
+.pull_right{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+}
